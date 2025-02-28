@@ -56,8 +56,8 @@ public class Main {
         byte brownCans = 4;
         int classroomCans = whiteCans + brownCans;
         int totalClassrooms = paintCans / classroomCans;
-        int totalWhite = paintCans / whiteCans;
-        int totalBrown = paintCans / brownCans;
+        int totalWhite = totalClassrooms * whiteCans;
+        int totalBrown = totalClassrooms * brownCans;
         System.out.println("В школе, где " + totalClassrooms + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски");
         System.out.println(" ");
         System.out.println("Задача 6");
